@@ -115,6 +115,16 @@ github.com/pierrec/lz4/v4/internal/lz4block
 github.com/pierrec/lz4/v4/internal/lz4errors
 github.com/pierrec/lz4/v4/internal/lz4stream
 github.com/pierrec/lz4/v4/internal/xxh32
+# github.com/sangnv/gorm-gen v1.0.0 => ../../
+## explicit; go 1.25.5
+github.com/sangnv/gorm-gen
+github.com/sangnv/gorm-gen/field
+github.com/sangnv/gorm-gen/helper
+github.com/sangnv/gorm-gen/internal/generate
+github.com/sangnv/gorm-gen/internal/model
+github.com/sangnv/gorm-gen/internal/parser
+github.com/sangnv/gorm-gen/internal/template
+github.com/sangnv/gorm-gen/internal/utils/pools
 # github.com/segmentio/asm v1.2.1
 ## explicit; go 1.18
 github.com/segmentio/asm/bswap
@@ -145,6 +155,9 @@ go.yaml.in/yaml/v3
 ## explicit; go 1.24.0
 golang.org/x/crypto/md4
 golang.org/x/crypto/pbkdf2
+# golang.org/x/exp v0.0.0-20251209150349-8475f28825e9
+## explicit; go 1.24.0
+golang.org/x/exp/constraints
 # golang.org/x/mod v0.31.0
 ## explicit; go 1.24.0
 golang.org/x/mod/internal/lazyregexp
@@ -224,16 +237,6 @@ gorm.io/driver/sqlite
 # gorm.io/driver/sqlserver v1.6.3
 ## explicit; go 1.14
 gorm.io/driver/sqlserver
-# gorm.io/gen v0.3.27
-## explicit; go 1.18
-gorm.io/gen
-gorm.io/gen/field
-gorm.io/gen/helper
-gorm.io/gen/internal/generate
-gorm.io/gen/internal/model
-gorm.io/gen/internal/parser
-gorm.io/gen/internal/template
-gorm.io/gen/internal/utils/pools
 # gorm.io/gorm v1.31.1
 ## explicit; go 1.18
 gorm.io/gorm
@@ -252,3 +255,4 @@ gorm.io/hints
 # gorm.io/plugin/dbresolver v1.6.2
 ## explicit; go 1.18
 gorm.io/plugin/dbresolver
+# github.com/sangnv/gorm-gen => ../../
